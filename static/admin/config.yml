@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: Breakaway-Dezigns-Agency/TwistNShout_Netlify
+  branch: master
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: TwistNShout_Netlify
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: path, label: Path }

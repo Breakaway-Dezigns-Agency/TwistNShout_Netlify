@@ -2,5 +2,12 @@ module.exports = {
   siteMetadata: {
     title: "twistnshout",
   },
-  plugins: ["gatsby-plugin-netlify-cms"],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        // modulePath: `${__dirname}/src`
+      }
+    }
+  ],
 };
