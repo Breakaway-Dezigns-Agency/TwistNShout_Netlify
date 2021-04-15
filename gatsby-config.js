@@ -20,6 +20,14 @@ module.exports = {
     //   },
     // },
     {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        cssLoaderOptions: {
+          camelCase: false,
+        },
+      },
+    },
+    {
       resolve: `gatsby-source-graphql`,
       options: {
         typeName: `WPGraphQL`,
