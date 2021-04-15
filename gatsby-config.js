@@ -9,16 +9,16 @@ module.exports = {
         enableIdentityWidget: false,
       }
     },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        commonmark: true,
-        footnotes: true,
-        pedantic: true,
-        gfm: true,
-        plugins: [],
-      },
-    },
+    // {
+    //   resolve: `gatsby-transformer-remark`,
+    //   options: {
+    //     commonmark: true,
+    //     footnotes: true,
+    //     pedantic: true,
+    //     gfm: true,
+    //     plugins: [],
+    //   },
+    // },
     {
       resolve: `gatsby-source-graphql`,
       options: {
