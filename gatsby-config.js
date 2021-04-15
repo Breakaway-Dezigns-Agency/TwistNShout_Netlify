@@ -28,10 +28,10 @@ module.exports = {
       }
     },
     `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-image`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    // `gatsby-plugin-react-helmet`,
+    // `gatsby-plugin-image`,
+    // `gatsby-transformer-sharp`,
+    // `gatsby-plugin-sharp`,
     // `gatsby-plugin-gatsby-cloud`,
   ],
 };
