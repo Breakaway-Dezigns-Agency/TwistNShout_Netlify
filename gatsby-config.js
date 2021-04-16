@@ -3,12 +3,12 @@ module.exports = {
     title: "twistnshout",
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        enableIdentityWidget: false,
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-netlify-cms`,
+    //   options: {
+    //     enableIdentityWidget: false,
+    //   }
+    // },
     // {
     //   resolve: `gatsby-transformer-remark`,
     //   options: {
@@ -27,16 +27,10 @@ module.exports = {
         url: `https://twistandshoutevents.com/graphql`,
       }
     },
-    {
-      resolve:`gatsby-plugin-postcss`,
-      options: {
-        postCssPlugins: [require('tailwindcss')('./tailwind.config.js')],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-purgecss`,
-      options: { tailwind: true }
-    },
+    // {
+    //   resolve: `gatsby-plugin-purgecss`,
+    //   options: { tailwind: true }
+    // },
     `gatsby-plugin-sass`,
     // `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
