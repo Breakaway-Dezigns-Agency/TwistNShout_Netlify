@@ -20,14 +20,6 @@ module.exports = {
     //   },
     // },
     {
-      resolve: `gatsby-plugin-postcss`,
-      options: {
-        cssLoaderOptions: {
-          camelCase: false,
-        },
-      },
-    },
-    {
       resolve: `gatsby-source-graphql`,
       options: {
         typeName: `WPGraphQL`,
@@ -36,6 +28,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-sass`,
+    `gatsby-plugin-postcss`,
     // `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
